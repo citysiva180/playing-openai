@@ -23,7 +23,9 @@ def create_image_on_prompt(prompt_sentence):
         print(e.error)
 
 
+# output = create_image_on_prompt(
+#     "princess diana as a disney princess realistic")
 
 output = create_image_on_prompt(
-    "princess diana as a disney princess realistic")
+    "jawaharlal nehru as a british victorian aristocrat realistic")
 print(output)
